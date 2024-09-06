@@ -92,7 +92,7 @@ li a:hover {
 
 .content-img img {
   width: 500px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .content-img img:hover {
