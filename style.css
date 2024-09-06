@@ -206,7 +206,7 @@ footer p {
   border: none;
   color: rgb(0, 0, 0);
   padding: 5px 10px;
-  font-size: 20px; /* Fonte menor */
+  font-size: 20px;
   flex: 1;
 }
 
