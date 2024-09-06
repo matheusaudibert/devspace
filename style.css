@@ -92,6 +92,11 @@ li a:hover {
 
 .content-img img {
   width: 500px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.content-img img:hover {
+  transform: translateY(-5px) rotate(-15deg);
 }
 
 .content-img-2 {
@@ -101,6 +106,11 @@ li a:hover {
 
 .content-img-2 img {
   width: 500px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.content-img-2 img:hover {
+  transform: translateY(-5px) rotate(+15deg);
 }
 
 .content-middle {
