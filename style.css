@@ -96,7 +96,7 @@ li a:hover {
 }
 
 .content-img img:hover {
-  transform: translateY(-5px) rotate(-15deg);
+  transform: rotate(-15deg);
 }
 
 .content-img-2 {
@@ -110,7 +110,7 @@ li a:hover {
 }
 
 .content-img-2 img:hover {
-  transform: translateY(-5px) rotate(+15deg);
+  transform: rotate(+15deg);
 }
 
 .content-middle {
@@ -122,6 +122,9 @@ li a:hover {
   padding: 0 100px;
   text-align: center;
   transition: background-color 0.2s ease-in-out;
+}
+.content-middle:hover {
+  background-color: rgba(78, 52, 196, 0.075);
 }
 
 .content-middle h1 {
@@ -194,16 +197,16 @@ footer p {
 
 .search-container {
   display: flex;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 10px;
   overflow: hidden;
-  background-color: #fff;
+  gap: 10px;
 }
 
 .search-input {
   border: none;
+  color: rgb(0, 0, 0);
   padding: 5px 10px;
-  font-size: 16px; /* Fonte menor */
+  font-size: 20px; /* Fonte menor */
   flex: 1;
 }
 
