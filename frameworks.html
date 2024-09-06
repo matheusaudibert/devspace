@@ -1,0 +1,66 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/page/icone.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>DevSpace - Frameworks</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img class="logo" src="/assets/page/logo.png" alt=""
+      /></a>
+      <ul>
+        <li><a href="linguagens.html">Linguagens</a></li>
+        <li><a href="bancos.html">Bancos de Dados</a></li>
+        <li><a href="frameworks.html">Frameworks</a></li>
+        <li><a href="ides.html">IDEs</a></li>
+      </ul>
+      <a target="_blank" href="https://github.com/matheusaudibert/alura_project"
+        ><img src="/assets/page/github.png" alt="github" class="github-icon"
+      /></a>
+    </header>
+
+    <div class="container">
+      <h1>Frameworks</h1>
+      <div class="search-container">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Digite algum framework..."
+          id="input"
+        />
+        <button onclick="pesquisar()" type="submit">Buscar</button>
+      </div>
+      <br />
+      <span class="start"
+        >Frameworks são conjuntos de ferramentas e bibliotecas de código que
+        fornecem uma estrutura padronizada para o desenvolvimento de software,
+        facilitando a criação de aplicações ao oferecer soluções prontas para
+        tarefas comuns. Eles promovem a reutilização de código e seguem
+        convenções específicas, ajudando a acelerar o processo de
+        desenvolvimento e a manter a consistência e a organização do projeto.
+        Utilizados em diversas áreas, como desenvolvimento web e móvel,
+        frameworks ajudam a simplificar e otimizar o desenvolvimento de
+        aplicações complexas.</span
+      >
+      <br />
+      <button onclick="apresentar()" class="todas">Ver todos</button>
+    </div>
+
+    <div class="lang-cards" id="lang-cards"></div>
+    <footer>
+      <p>
+        &copy; 2024 Matheus Audibert. Projeto desenvolvido durante a Imersão Dev
+        da Alura.
+      </p>
+    </footer>
+    <script src="scripts/frameworks.js"></script>
+    <script src="scripts/script_framework.js"></script>
+  </body>
+</html>

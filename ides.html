@@ -1,0 +1,66 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/page/icone.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>DevSpace - IDEs</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img class="logo" src="/assets/page/logo.png" alt=""
+      /></a>
+      <ul>
+        <li><a href="linguagens.html">Linguagens</a></li>
+        <li><a href="bancos.html">Bancos de Dados</a></li>
+        <li><a href="frameworks.html">Frameworks</a></li>
+        <li><a href="ides.html">IDEs</a></li>
+      </ul>
+      <a target="_blank" href="https://github.com/matheusaudibert/alura_project"
+        ><img src="/assets/page/github.png" alt="github" class="github-icon"
+      /></a>
+    </header>
+
+    <div class="container">
+      <h1>IDEs</h1>
+      <div class="search-container">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Digite alguma IDE..."
+          id="input"
+        />
+        <button onclick="pesquisar()">Buscar</button>
+      </div>
+      <br />
+      <span class="start"
+        >IDEs (Ambientes de Desenvolvimento Integrados) são ferramentas que
+        fornecem um conjunto de funcionalidades para facilitar o desenvolvimento
+        de software, combinando editor de código, compilador, depurador e outras
+        ferramentas essenciais em um único ambiente. Elas ajudam os
+        desenvolvedores a escrever, testar e depurar código de forma mais
+        eficiente, oferecendo recursos como auto-completar, controle de versão e
+        integração com frameworks e bibliotecas. IDEs são projetadas para
+        aumentar a produtividade e a qualidade do código, tornando o processo de
+        desenvolvimento mais organizado e menos propenso a erros.</span
+      >
+      <br />
+      <button class="todas" onclick="apresentar()">Ver todos</button>
+    </div>
+
+    <div class="lang-cards" id="lang-cards"></div>
+    <footer>
+      <p>
+        &copy; 2024 Matheus Audibert. Projeto desenvolvido durante a Imersão Dev
+        da Alura.
+      </p>
+    </footer>
+    <script src="scripts/script_ide.js"></script>
+    <script src="scripts/ides.js"></script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/page/icone.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>DevSpace - Linguagens</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img class="logo" src="/assets/page/logo.png" alt=""
+      /></a>
+      <ul>
+        <li><a href="linguagens.html">Linguagens</a></li>
+        <li><a href="bancos.html">Bancos de Dados</a></li>
+        <li><a href="frameworks.html">Frameworks</a></li>
+        <li><a href="ides.html">IDEs</a></li>
+      </ul>
+      <a target="_blank" href="https://github.com/matheusaudibert/alura_project"
+        ><img src="/assets/page/github.png" alt="github" class="github-icon"
+      /></a>
+    </header>
+
+    <div class="container">
+      <h1>Linguagens</h1>
+      <div class="search-container">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Digite alguma linguagem..."
+          id="input"
+        />
+        <button onclick="pesquisar()">Buscar</button>
+      </div>
+      <br />
+      <span class="start"
+        >Linguagens de programação são sistemas de comunicação que permitem aos
+        desenvolvedores escrever instruções para computadores executarem tarefas
+        específicas, usando regras e sintaxes definidas. Elas variam em seus
+        paradigmas e métodos de execução, e são usadas em diferentes áreas como
+        desenvolvimento web, análise de dados e sistemas embarcados.</span
+      >
+      <br />
+      <button class="todas" onclick="apresentar()">Ver todas</button>
+    </div>
+
+    <div class="lang-cards" id="lang-cards"></div>
+    <footer>
+      <p>
+        &copy; 2024 Matheus Audibert. Projeto desenvolvido durante a Imersão Dev
+        da Alura.
+      </p>
+    </footer>
+    <script src="scripts/script_linguagem.js"></script>
+    <script src="scripts/linguagens.js"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/assets/page/icone.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DevSpace - Bancos de Dados</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img class="logo" src="assets/page/logo.png" alt=""
+      /></a>
+      <ul>
+        <li><a href="linguagens.html">Linguagens</a></li>
+        <li><a href="bancos.html">Bancos de Dados</a></li>
+        <li><a href="frameworks.html">Frameworks</a></li>
+        <li><a href="ides.html">IDEs</a></li>
+      </ul>
+      <a target="_blank" href="https://github.com/matheusaudibert/alura_project"
+        ><img src="/assets/page/github.png" alt="github" class="github-icon"
+      /></a>
+    </header>
+
+    <div class="container">
+      <h1>Bancos de Dados</h1>
+      <div class="search-container">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Digite o nome do banco..."
+          id="input"
+        />
+        <button onclick="pesquisar()" type="submit">Buscar</button>
+      </div>
+      <br />
+      <span class="start"
+        >Banco de dados são sistemas que armazenam, organizam e gerenciam
+        grandes volumes de informações, permitindo o acesso eficiente e seguro a
+        esses dados. Eles utilizam modelos e estruturas específicas para
+        armazenar dados, e oferecem ferramentas para manipulação e consulta das
+        informações, sendo essenciais em diversas áreas como desenvolvimento de
+        aplicativos, gerenciamento de empresas e análise de dados.</span
+      >
+      <br />
+      <button onclick="apresentar()" class="todas">Ver todos</button>
+    </div>
+
+    <div class="lang-cards" id="lang-cards"></div>
+    <footer>
+      <p>
+        &copy; 2024 Matheus Audibert. Projeto desenvolvido durante a Imersão Dev
+        da Alura.
+      </p>
+    </footer>
+    <script src="scripts/bancos.js"></script>
+    <script src="scripts/script_banco.js"></script>
+  </body>
+</html>
