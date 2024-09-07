@@ -180,7 +180,6 @@ footer {
   text-align: center;
   padding: 10px 0;
   font-size: 14px;
-  width: 100%;
   bottom: 0;
 }
 
@@ -268,8 +267,6 @@ input::placeholder {
 
 .todas {
   margin: 10px;
-  font-size: 16px;
-  font-weight: 300;
   border-radius: 5px;
   margin-top: 20px;
   padding: 10px 20px;
@@ -570,6 +567,24 @@ input::placeholder {
   .todas {
     width: 100%;
   }
+
+  .lang-card {
+    flex: 1 1 calc(100% - 40px);
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .lang-img {
+    width: 80px;
+  }
+
+  .lang-name {
+    font-size: 1.3rem;
+  }
+
+  .lang-desc {
+    font-size: 0.85rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -662,6 +677,24 @@ input::placeholder {
   .todas {
     width: 100%;
     font-size: 14px;
+  }
+
+  .lang-card {
+    flex: 1 1 calc(100% - 20px);
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .lang-img {
+    width: 60px;
+  }
+
+  .lang-name {
+    font-size: 1.1rem;
+  }
+
+  .lang-desc {
+    font-size: 0.8rem;
   }
 }
 

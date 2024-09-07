@@ -71,7 +71,7 @@ function pesquisar(){
   }
 
   if(resultados == "") {
-        div.innerHTML = "<h1 style='text-align: center;'>Nada foi encontrado!</h1>"
+        div.innerHTML = "<h1 style='text-align: center;'>Nehuma IDE encontrada!</h1>"
         return
     }
 
