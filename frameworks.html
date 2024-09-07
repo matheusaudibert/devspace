@@ -16,9 +16,10 @@
         ><img class="logo" src="/assets/page/logo.png" alt=""
       /></a>
       <ul>
+        <li><a href="index.html">Início</a></li>
         <li><a href="linguagens.html">Linguagens</a></li>
         <li><a href="bancos.html">Bancos de Dados</a></li>
-        <li><a href="frameworks.html">Frameworks</a></li>
+        <li><a href="frameworks.html" class="active">Frameworks</a></li>
         <li><a href="ides.html">IDEs</a></li>
       </ul>
       <a target="_blank" href="https://github.com/matheusaudibert/devspace"
@@ -27,29 +28,37 @@
     </header>
 
     <div class="container">
-      <h1>Frameworks</h1>
-      <div class="search-container">
-        <input
-          type="text"
-          class="search-input"
-          placeholder="Digite algum framework..."
-          id="input"
-        />
-        <button onclick="pesquisar()" type="submit">Buscar</button>
+      <h1 style="font-weight: 900; font-stretch: 125%;">FRAMEWORKS</h1>
+      <div class="explication">
+        <span class="start"
+          >Frameworks são conjuntos de ferramentas e bibliotecas de código que
+          fornecem uma estrutura padronizada para o desenvolvimento de software,
+          facilitando a criação de aplicações ao oferecer soluções prontas para
+          tarefas comuns. Eles promovem a reutilização de código e seguem
+          convenções específicas, ajudando a acelerar o processo de
+          desenvolvimento e a manter a consistência e a organização do
+          projeto.</span
+        >
       </div>
-      <br />
-      <span class="start"
-        >Frameworks são conjuntos de ferramentas e bibliotecas de código que
-        fornecem uma estrutura padronizada para o desenvolvimento de software,
-        facilitando a criação de aplicações ao oferecer soluções prontas para
-        tarefas comuns. Eles promovem a reutilização de código e seguem
-        convenções específicas, ajudando a acelerar o processo de
-        desenvolvimento e a manter a consistência e a organização do projeto.
-        Utilizados em diversas áreas, como desenvolvimento web e móvel,
-        frameworks ajudam a simplificar e otimizar o desenvolvimento de
-        aplicações complexas.</span
-      >
-      <br />
+      <div class="search-box">
+        <table class="elements">
+          <tr>
+            <td>
+              <input
+                type="text"
+                class="search"
+                placeholder="Digite algum framework..."
+                id="input"
+              />
+            </td>
+            <td>
+              <a onclick="pesquisar()" href="#"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </td>
+          </tr>
+        </table>
+      </div>
       <button class="todas btn" onclick="apresentar()">Ver todos</button>
     </div>
 

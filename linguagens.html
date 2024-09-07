@@ -3,6 +3,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       rel="shortcut icon"
       href="assets/page/icone.ico"
       type="image/x-icon"
@@ -16,7 +23,8 @@
         ><img class="logo" src="/assets/page/logo.png" alt=""
       /></a>
       <ul>
-        <li><a href="linguagens.html">Linguagens</a></li>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="linguagens.html" class="active">Linguagens</a></li>
         <li><a href="bancos.html">Bancos de Dados</a></li>
         <li><a href="frameworks.html">Frameworks</a></li>
         <li><a href="ides.html">IDEs</a></li>
@@ -27,25 +35,40 @@
     </header>
 
     <div class="container">
-      <h1>Linguagens</h1>
-      <div class="search-container">
-        <input
-          type="text"
-          class="search-input"
-          placeholder="Digite alguma linguagem..."
-          id="input"
-        />
-        <button onclick="pesquisar()">Buscar</button>
-      </div>
-      <br />
-      <span class="start"
-        >Linguagens de programação são sistemas de comunicação que permitem aos
-        desenvolvedores escrever instruções para computadores executarem tarefas
-        específicas, usando regras e sintaxes definidas. Elas variam em seus
-        paradigmas e métodos de execução, e são usadas em diferentes áreas como
-        desenvolvimento web, análise de dados e sistemas embarcados.</span
+      <h1
+        style="font-weight: 900; font-stretch: 125%; text-align: center; margin: 0;"
       >
-      <br />
+        LINGUAGENS
+      </h1>
+      <div class="explication">
+        <span class="start"
+          >Linguagens de programação são sistemas de comunicação que permitem
+          aos desenvolvedores escrever instruções para computadores executarem
+          tarefas específicas, usando regras e sintaxes definidas. Elas variam
+          em seus paradigmas e métodos de execução, e são usadas em diferentes
+          áreas como desenvolvimento web, análise de dados e sistemas
+          embarcados.</span
+        >
+      </div>
+      <div class="search-box">
+        <table class="elements">
+          <tr>
+            <td>
+              <input
+                type="text"
+                class="search"
+                placeholder="Digite alguma linguagem..."
+                id="input"
+              />
+            </td>
+            <td>
+              <a onclick="pesquisar()" href="#"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </td>
+          </tr>
+        </table>
+      </div>
       <button class="todas btn" onclick="apresentar()">Ver todas</button>
     </div>
 

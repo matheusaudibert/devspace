@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
 @font-face {
   font-family: "Mona Sans";
   src: url("/fonts/Mona-Sans.woff2") format("woff2 supports variations"),
@@ -17,6 +15,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+/* LANDING PAGE */
 
 header {
   margin: 10px;
@@ -39,6 +39,10 @@ ul {
   display: flex;
   justify-content: center;
   margin: 0;
+}
+
+.active {
+  color: rgb(78, 52, 196);
 }
 
 li {
@@ -181,6 +185,8 @@ footer p {
   margin: 0;
 }
 
+/* PAGINAS DE BUSCA */
+
 .container {
   border-radius: 20px;
   padding: 20px;
@@ -192,29 +198,67 @@ footer p {
   justify-content: center;
 }
 
-.search-container {
-  display: flex;
+.explication {
+  background-color: #00000010;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
-  overflow: hidden;
-  gap: 10px;
+  padding: 20px;
+  color: #ffffff;
 }
 
-.search-input {
+.explication .start {
+  font-weight: 400;
+  font-size: 1.2rem;
+  max-width: 100%;
+}
+
+.search-box {
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 4%;
+  position: relative;
+  width: 300px;
+  height: 42px;
+  border: 1px solid #ffffff;
+  padding: 0px 10px;
+  border-radius: 50px;
+}
+
+.elements {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.search {
   border: none;
-  color: rgb(0, 0, 0);
-  padding: 5px 10px;
+  height: 100%;
+  width: 100%;
+  padding: 0px 5px;
+  border-radius: 50px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  background-color: #000000;
+  caret-color: #ffffff;
+}
+
+.search:focus {
+  outline: none;
+}
+
+input::placeholder {
+  font-family: "Mona Sans";
+}
+
+.fa-magnifying-glass {
+  color: rgb(255, 255, 255);
   font-size: 20px;
-  flex: 1;
 }
 
-.search-container button {
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.2s ease, box-shadow 0.2s ease;
-}
-
-.search-container button:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.fa-magnifying-glass:hover {
+  color: #929292;
 }
 
 .todas {
@@ -416,6 +460,8 @@ footer p {
   font-weight: bold;
 }
 
+/* RESPONSIVIDADE */
+
 @media screen and (max-width: 768px) {
   header {
     padding: 0 20px;
@@ -497,6 +543,24 @@ footer p {
     padding-left: 0;
     padding-right: 20px;
   }
+
+  .container {
+    margin: 10px 20px;
+    padding: 0 20px;
+  }
+
+  .explication .start {
+    font-size: 1rem;
+  }
+
+  .search-box {
+    width: 100%;
+    height: 42px;
+  }
+
+  .todas {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -558,5 +622,36 @@ footer p {
 
   .content-text .content-text-desc {
     font-size: 1rem;
+  }
+
+  .container {
+    margin: 10px 10px;
+    padding: 0 10px;
+  }
+
+  .explication {
+    padding: 15px;
+  }
+
+  .explication .start {
+    font-size: 0.9rem;
+  }
+
+  .search-box {
+    width: 100%;
+    height: 40px;
+  }
+
+  .search {
+    font-size: 14px;
+  }
+
+  .fa-magnifying-glass {
+    font-size: 18px;
+  }
+
+  .todas {
+    width: 100%;
+    font-size: 14px;
   }
 }

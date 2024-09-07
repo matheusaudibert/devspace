@@ -3,6 +3,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/assets/page/icone.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>DevSpace - Bancos de Dados</title>
   </head>
@@ -12,8 +19,9 @@
         ><img class="logo" src="assets/page/logo.png" alt=""
       /></a>
       <ul>
+        <li><a href="index.html">Início</a></li>
         <li><a href="linguagens.html">Linguagens</a></li>
-        <li><a href="bancos.html">Bancos de Dados</a></li>
+        <li><a href="bancos.html" class="active">Bancos de Dados</a></li>
         <li><a href="frameworks.html">Frameworks</a></li>
         <li><a href="ides.html">IDEs</a></li>
       </ul>
@@ -23,26 +31,37 @@
     </header>
 
     <div class="container">
-      <h1>Bancos de Dados</h1>
-      <div class="search-container">
-        <input
-          type="text"
-          class="search-input"
-          placeholder="Digite o nome do banco..."
-          id="input"
-        />
-        <button onclick="pesquisar()" type="submit">Buscar</button>
+      <h1 style="font-weight: 900; font-stretch: 125%;">BANCOS DE DADOS</h1>
+      <div class="explication">
+        <span class="start"
+          >Banco de dados são sistemas que armazenam, organizam e
+          gerenciamgrandes volumes de informações, permitindo o acesso eficiente
+          e seguro aesses dados. Eles utilizam modelos e estruturas específicas
+          para armazenar dados, e oferecem ferramentas para manipulação e
+          consulta das informações, sendo essenciais em diversas áreas como
+          desenvolvimento de aplicativos, gerenciamento de empresas e análise de
+          dados.</span
+        >
       </div>
-      <br />
-      <span class="start"
-        >Banco de dados são sistemas que armazenam, organizam e gerenciam
-        grandes volumes de informações, permitindo o acesso eficiente e seguro a
-        esses dados. Eles utilizam modelos e estruturas específicas para
-        armazenar dados, e oferecem ferramentas para manipulação e consulta das
-        informações, sendo essenciais em diversas áreas como desenvolvimento de
-        aplicativos, gerenciamento de empresas e análise de dados.</span
-      >
-      <br />
+      <div class="search-box">
+        <table class="elements">
+          <tr>
+            <td>
+              <input
+                type="text"
+                class="search"
+                placeholder="Digite algum banco de dado..."
+                id="input"
+              />
+            </td>
+            <td>
+              <a onclick="pesquisar()" href="#"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </td>
+          </tr>
+        </table>
+      </div>
       <button class="todas btn" onclick="apresentar()">Ver todos</button>
     </div>
 

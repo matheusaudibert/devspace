@@ -33,7 +33,7 @@ function pesquisar() {
   // Obtém a seção HTML onde os resultados serão exibidos
     let div = document.getElementById("lang-cards");
 
-    let input = document.getElementById("input").value;
+    let input = document.getElementById("input").value.toLowerCase();
 
     if (input == "") {
       div.innerHTML = "<h1 style='text-align: center;'>Insira alguma linguagem!</h1>"
@@ -72,7 +72,7 @@ function pesquisar() {
     }
   }
     if(resultados == "") {
-          div.innerHTML = "<h1 style='text-align: center;'>Nada foi encontrado!</h1>"
+          div.innerHTML = "<h1 style='text-align: center;'>Nenhuma linguagem encontrada!</h1>"
           return
     }
 

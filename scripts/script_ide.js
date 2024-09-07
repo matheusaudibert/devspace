@@ -32,7 +32,7 @@ function pesquisar(){
   // Obtém a seção HTML onde os resultados serão exibidos
     let div = document.getElementById("lang-cards");
 
-    let input = document.getElementById("input").value;
+    let input = document.getElementById("input").value.toLowerCase();
 
     if (input == "") {
       div.innerHTML = "<h1 style='text-align: center;'>Insira alguma IDE!</h1>"

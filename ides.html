@@ -3,6 +3,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       rel="shortcut icon"
       href="assets/page/icone.ico"
       type="image/x-icon"
@@ -16,10 +23,11 @@
         ><img class="logo" src="/assets/page/logo.png" alt=""
       /></a>
       <ul>
+        <li><a href="index.html">Início</a></li>
         <li><a href="linguagens.html">Linguagens</a></li>
         <li><a href="bancos.html">Bancos de Dados</a></li>
         <li><a href="frameworks.html">Frameworks</a></li>
-        <li><a href="ides.html">IDEs</a></li>
+        <li><a href="ides.html" class="active">IDEs</a></li>
       </ul>
       <a target="_blank" href="https://github.com/matheusaudibert/devspace"
         ><img src="/assets/page/github.png" alt="github" class="github-icon"
@@ -27,29 +35,37 @@
     </header>
 
     <div class="container">
-      <h1>IDEs</h1>
-      <div class="search-container">
-        <input
-          type="text"
-          class="search-input"
-          placeholder="Digite alguma IDE..."
-          id="input"
-        />
-        <button onclick="pesquisar()">Buscar</button>
+      <h1 style="font-weight: 900; font-stretch: 125%;">IDEs</h1>
+      <div class="explication">
+        <span class="start"
+          >IDEs (Ambientes de Desenvolvimento Integrados) são ferramentas que
+          fornecem um conjunto de funcionalidades para facilitar o
+          desenvolvimento de software, combinando editor de código, compilador,
+          depurador e outras ferramentas essenciais em um único ambiente. Elas
+          ajudam os desenvolvedores a escrever, testar e depurar código de forma
+          mais eficiente, oferecendo recursos como auto-completar, controle de
+          versão e integração com frameworks e bibliotecas.</span
+        >
       </div>
-      <br />
-      <span class="start"
-        >IDEs (Ambientes de Desenvolvimento Integrados) são ferramentas que
-        fornecem um conjunto de funcionalidades para facilitar o desenvolvimento
-        de software, combinando editor de código, compilador, depurador e outras
-        ferramentas essenciais em um único ambiente. Elas ajudam os
-        desenvolvedores a escrever, testar e depurar código de forma mais
-        eficiente, oferecendo recursos como auto-completar, controle de versão e
-        integração com frameworks e bibliotecas. IDEs são projetadas para
-        aumentar a produtividade e a qualidade do código, tornando o processo de
-        desenvolvimento mais organizado e menos propenso a erros.</span
-      >
-      <br />
+      <div class="search-box">
+        <table class="elements">
+          <tr>
+            <td>
+              <input
+                type="text"
+                class="search"
+                placeholder="Digite alguma IDE..."
+                id="input"
+              />
+            </td>
+            <td>
+              <a onclick="pesquisar()" href="#"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </td>
+          </tr>
+        </table>
+      </div>
       <button class="todas btn" onclick="apresentar()">Ver todas</button>
     </div>
 
