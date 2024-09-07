@@ -743,6 +743,7 @@ body.light {
 
 .btn.light:active {
   color: #ffffff;
+  background-color: #000;
   font-weight: bold;
   transition: 0.5s;
 }
