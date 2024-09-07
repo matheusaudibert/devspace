@@ -8,12 +8,13 @@
 
 body {
   font-family: "Mona Sans";
-  color: #fff;
-  background-color: #000;
+  color: #ffffff;
+  background-color: #000000;
   margin: 0px 100px;
   padding: 0;
   display: flex;
   flex-direction: column;
+  transition: 0.5s;
 }
 
 /* LANDING PAGE */
@@ -29,11 +30,12 @@ header {
 .logo {
   float: right;
   width: 60px;
+  transition: 0.5s;
 }
 
 ul {
   margin: 0 auto;
-  font-weight: 300;
+  font-weight: 500;
   list-style: none;
   padding: 0;
   display: flex;
@@ -51,9 +53,10 @@ li {
 
 li a {
   display: inline-block;
-  color: #fff;
   text-decoration: none;
   transition: transform 0.2s ease-in-out;
+  color: #fff;
+  transition: 0.5s;
 }
 
 li a:hover {
@@ -64,13 +67,14 @@ li a:hover {
   float: left;
   width: 3rem;
   height: auto;
+  transition: 0.5s;
 }
 
 .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box; /* Inclui padding na largura total */
+  box-sizing: border-box;
 }
 
 .content-text h1 {
@@ -173,7 +177,6 @@ li a:hover {
 }
 
 footer {
-  color: #fff;
   text-align: center;
   padding: 10px 0;
   font-size: 14px;
@@ -199,12 +202,11 @@ footer p {
 }
 
 .explication {
-  background-color: #00000010;
+  background-color: #61616141;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
   padding: 20px;
-  color: #ffffff;
 }
 
 .explication .start {
@@ -223,6 +225,7 @@ footer p {
   border: 1px solid #ffffff;
   padding: 0px 10px;
   border-radius: 50px;
+  transition: 0.5s;
 }
 
 .elements {
@@ -240,8 +243,9 @@ footer p {
   font-size: 16px;
   color: #ffffff;
   font-weight: 500;
-  background-color: #000000;
+  background-color: transparent;
   caret-color: #ffffff;
+  transition: 0.5s;
 }
 
 .search:focus {
@@ -253,8 +257,9 @@ input::placeholder {
 }
 
 .fa-magnifying-glass {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-size: 20px;
+  transition: 0.5s;
 }
 
 .fa-magnifying-glass:hover {
@@ -263,12 +268,9 @@ input::placeholder {
 
 .todas {
   margin: 10px;
-  background-color: #fff;
-  color: #000;
   font-size: 16px;
   font-weight: 300;
   border-radius: 5px;
-  border: 1px solid white;
   margin-top: 20px;
   padding: 10px 20px;
   cursor: pointer;
@@ -395,7 +397,9 @@ input::placeholder {
   position: relative;
   z-index: 0;
   border-radius: 12px;
+  transition: 0.5s;
 }
+
 .btn::after {
   content: "";
   z-index: -1;
@@ -406,6 +410,7 @@ input::placeholder {
   left: 0;
   top: 0;
   border-radius: 10px;
+  transition: 0.5s;
 }
 
 .btn::before {
@@ -433,6 +438,7 @@ input::placeholder {
   transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
   opacity: 0;
+  transition: 0.5s;
 }
 
 @keyframes glowing {
@@ -449,15 +455,18 @@ input::placeholder {
 
 .btn:hover::before {
   opacity: 1;
+  transition: 0.5s;
 }
 
 .btn:active:after {
   background: transparent;
+  transition: 0.5s;
 }
 
 .btn:active {
   color: #000;
   font-weight: bold;
+  transition: 0.5s;
 }
 
 /* RESPONSIVIDADE */
@@ -654,4 +663,82 @@ input::placeholder {
     width: 100%;
     font-size: 14px;
   }
+}
+
+/* ELEMENTOS LIGHT MODE */
+
+.trail {
+  width: 51px;
+  height: 25px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  position: relative;
+  cursor: pointer;
+}
+
+.trail .ind {
+  width: 24px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50%;
+  transform: scale(0.9);
+  position: absolute;
+  left: 0;
+  transition: 0.5s;
+}
+
+.trail.light {
+  background-color: #c3c3c3;
+}
+
+.trail.light .ind {
+  left: 27px;
+  background-color: #ffffff;
+}
+
+body.light {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.logo.light {
+  filter: invert(1);
+}
+
+.btn.light {
+  color: #000000;
+}
+
+.btn.light::after {
+  background-color: #c3c3c3;
+}
+
+.btn.light:active {
+  color: #000;
+}
+
+li a.light {
+  color: #000000;
+}
+
+li a.light.active {
+  color: rgb(78, 52, 196);
+}
+
+.github-icon.light {
+  filter: invert(1);
+}
+
+.search.light {
+  color: #000000;
+  caret-color: #000000;
+}
+
+.fa-magnifying-glass.light {
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+
+.search-box.light {
+  border: 1px solid #000000;
 }
