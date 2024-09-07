@@ -13,8 +13,9 @@ trail.addEventListener('click', ()=> {
   a.forEach(a => {
     a.classList.toggle('light');
   });
+  img.classList.toggle('light')
   btn.forEach(btn => {
     btn.classList.toggle('light');
   });
-  img.classList.toggle('light')
+  
 })
