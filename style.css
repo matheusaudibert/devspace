@@ -12,7 +12,7 @@ body {
   font-family: "Mona Sans";
   color: #fff;
   background-color: #000;
-  margin: 0;
+  margin: 0px 100px;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -20,7 +20,6 @@ body {
 
 header {
   margin: 10px;
-  padding: 0 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -64,10 +63,10 @@ li a:hover {
 }
 
 .content {
-  margin: 0 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box; /* Inclui padding na largura total */
 }
 
 .content-text h1 {
@@ -117,7 +116,6 @@ li a:hover {
   border-radius: 20px;
   border: 1px solid rgb(78, 52, 196);
   padding: 20px;
-  margin: 10px 100px;
   display: block;
   padding: 0 100px;
   text-align: center;
@@ -151,7 +149,6 @@ li a:hover {
   align-items: center;
   justify-content: flex-start;
   border-radius: 8px;
-  margin: 0 100px;
 }
 
 .content-img-2 {
@@ -417,4 +414,149 @@ footer p {
 .btn:active {
   color: #000;
   font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0 20px;
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  ul {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+
+  .github-icon {
+    margin-top: 10px;
+  }
+
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content-img {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .content-img img {
+    width: 80%;
+  }
+
+  .content-text h1 {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+
+  .content-text-desc {
+    font-size: 1.1rem;
+  }
+
+  .content-middle {
+    padding: 0 20px;
+  }
+
+  .content-middle h1 {
+    font-size: 2rem;
+  }
+
+  .content-middle .start {
+    font-size: 1rem;
+  }
+
+  .content-middle .modules {
+    font-size: 1.2rem;
+  }
+
+  .content-final {
+    flex-direction: column;
+    text-align: center;
+    overflow-x: hidden;
+  }
+
+  .content-img-2 {
+    width: 100%;
+    flex: 0 0 auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+    left: 0;
+  }
+
+  .content-text {
+    padding-left: 0;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 40px;
+  }
+
+  .github-icon {
+    width: 2rem;
+  }
+
+  .content-text h1 {
+    font-size: 2rem;
+  }
+
+  .content-text-desc {
+    font-size: 1rem;
+  }
+
+  .content-img img {
+    width: 100%;
+  }
+
+  .content-middle {
+    padding: 0 10px;
+  }
+
+  .content-middle h1 {
+    font-size: 1.5rem;
+  }
+
+  .content-middle .start {
+    font-size: 0.9rem;
+  }
+
+  .content-middle .modules {
+    font-size: 1rem;
+  }
+
+  .content-final {
+    overflow-x: hidden;
+  }
+
+  .content-img-2 {
+    flex: 0 0 auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+    left: 0;
+  }
+
+  .content-text {
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  .content-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .content-text .content-text-desc {
+    font-size: 1rem;
+  }
 }
