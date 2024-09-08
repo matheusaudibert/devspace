@@ -36,10 +36,10 @@ const ias = [
         website: "https://www.midjourney.com"
     },
     {
-        name: "Deep Brain",
-        image: "deepbrain.png",
-        description: "Deep Brain é uma tecnologia de IA que se concentra na criação de sistemas de inteligência geral e aprendizado profundo. Com um enfoque na simulação de capacidades cognitivas humanas, o Deep Brain desenvolve modelos de IA capazes de realizar análises complexas, reconhecer padrões e gerar insights valiosos a partir de grandes volumes de dados. É utilizada em uma variedade de aplicações, desde pesquisa acadêmica até soluções comerciais inovadoras, promovendo avanços significativos na área de inteligência artificial.",
-        website: "https://deepbrain.io"
+        name: "Google AI Studio",
+        image: "googleai.png",
+        description: "Google AI Studio é uma plataforma desenvolvida pelo Google que oferece ferramentas e recursos para facilitar o desenvolvimento e a implementação de projetos de inteligência artificial (IA) e aprendizado de máquina (ML). Com o Google AI Studio, os desenvolvedores podem construir, treinar e implantar modelos de IA de forma eficiente, aproveitando a infraestrutura e a expertise do Google em IA.",
+        website: "https://aistudio.google.com"
     },
     {
         name: "Alexa",
