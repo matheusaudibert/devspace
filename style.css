@@ -293,8 +293,8 @@ input::placeholder {
   width: 30%;
   border-radius: 8px;
   padding: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: #40414744;
+  box-shadow: 0 8px 8px rgba(255, 255, 255, 0.212);
+  background-color: #61616141;
   box-sizing: border-box;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out,
     background-color 0.2s ease-in-out;
