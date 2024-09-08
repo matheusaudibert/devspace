@@ -2,7 +2,7 @@ const Linguagens = [
   {
     name: "Python",
     image: "python.png",
-    description: "Linguagens de programação são sistemas de comunicação que permitem aosdesenvolvedores escrever instruções para computadores executarem tarefasespecíficas, usando regras e sintaxes definidas. Elas variam em seusparadigmas e métodos de execução, e são usadas em diferentes áreas comodesenvolvimento web, análise de dados e sistemas embarcados.",
+    description: "Linguagens de programação são sistemas de comunicação que permitem aos desenvolvedores escrever instruções para computadores executarem tarefasespecíficas, usando regras e sintaxes definidas. Elas variam em seusparadigmas e métodos de execução, e são usadas em diferentes áreas comodesenvolvimento web, análise de dados e sistemas embarcados.",
     website: "https://www.python.org",
     releaseYear: 1991
   },
