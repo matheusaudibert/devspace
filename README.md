@@ -8,7 +8,7 @@
 
 Para começar a utilizar o **DEVSPACE**, siga as etapas descritas na imagem abaixo. Ela fornece um guia visual sobre como explorar e aproveitar ao máximo a plataforma.
 
-![DEVSPACE](assets/readme/readme.png)
+![DEVSPACE](assets/readme/readme_2.png)
 
 ## Funcionalidades
 
