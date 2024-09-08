@@ -93,7 +93,9 @@ Como alguém que não tinha um conhecimento profundo sobre várias ferramentas d
 
 ### Desenvolvimento
 
-Dediquei mais de 20 horas aprendendo **HTML**, **CSS** e **JavaScript**, e aplicando esse conhecimento no desenvolvimento do **DEVSPACE**. O projeto foi construído com um design **minimalista e intuitivo** para garantir uma navegação fluida e agradável. Utilizando essas tecnologias, criei uma interface que é ao mesmo tempo simples e eficiente, tornando a experiência de exploração das ferramentas a mais agradável possível.
+Foram dedicadas mais de 20 horas ao aprendizado e aplicação de **HTML**, **CSS** e **JavaScript** no desenvolvimento do **DEVSPACE**. O projeto foi construído com um design **minimalista e intuitivo** para garantir uma navegação fluida e agradável. Utilizando essas tecnologias, foi criada uma interface que é ao mesmo tempo simples e eficiente, proporcionando uma experiência de exploração das ferramentas que é a mais agradável possível.
+
+Além disso, foram exploradas e implementadas animações e efeitos de **CSS**, que adicionaram um toque especial e dinâmico à plataforma. Essas adições não só melhoraram a estética do projeto, mas também enriqueceram a experiência do usuário com interações mais envolventes e visuais.
 
 ### Objetivo
 
