@@ -71,7 +71,7 @@ Contribuições são bem-vindas! Siga os passos abaixo para contribuir com o DEV
 
 ## Processo de Criação
 
-O **DEVSPACE** nasceu da minha vontade de entender melhor o mundo do desenvolvimento e explorar as ferramentas mais importantes na área. Inspirado pela antiga página inicial do GitHub, que oferecia uma visão clara e acessível das principais tecnologias, decidi criar uma plataforma similar, mas com um foco mais amplo.
+O **DEVSPACE** nasceu da minha vontade de entender melhor o mundo do desenvolvimento e explorar as ferramentas mais importantes na área. O design foi inspirado na antiga página inicial do GitHub, que oferecia uma visão clara e acessível das da plataforma, decidi criar uma similar, mas com um foco diferente.
 
 ### Motivação
 
