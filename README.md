@@ -1,6 +1,4 @@
-# DEVSPACE - devspaceee.vercel.app
-
-## Preview
+# DEVSPACE - https://devspaceee.vercel.app
 
 ![DEVSPACE](assets/readme/readme.png)
 
