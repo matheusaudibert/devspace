@@ -83,9 +83,11 @@ Contribuições são bem-vindas! Siga os passos abaixo para contribuir com o DEV
 
 5. Envie suas alterações.
 ## Contexto do Projeto
+
+O **DEVSPACE** foi desenvolvido durante a Imersão Dev com Google Gemini, um evento de treinamento intensivo focado em tecnologias de desenvolvimento web, com a ajuda do Gemini. A Imersão foi hospedada pela Alura.
+
 ![DEVSPACE](assets/readme/imersao.webp)
 
-Nasceu durante a imaeresao 
 ## Processo de Criação
 
 O **DEVSPACE** nasceu da minha vontade de entender melhor o mundo do desenvolvimento e explorar as ferramentas mais importantes na área. O design foi inspirado na antiga página inicial do GitHub, que oferecia uma visão clara e acessível das da plataforma, decidi criar uma similar, mas com um foco diferente.
