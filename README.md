@@ -1,4 +1,4 @@
-# DEVSPACE
+# 🌌 DEVSPACE
 
 **DEVSPACE** é uma plataforma que reúne as principais ferramentas do mundo do desenvolvimento. Navegue por **linguagens de programação**, **bancos de dados**, **frameworks**, **IDEs**, e **inteligências artificiais** em um ambiente com visual **simples, agradável e intuitivo**.
 
