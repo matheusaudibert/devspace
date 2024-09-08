@@ -12,17 +12,31 @@ Para começar a utilizar o **DEVSPACE**, siga as etapas descritas na imagem abai
 
 ## Funcionalidades
 
-- **Linguagens de Programação**: Explore as linguagens mais populares, suas características, e como elas podem ser utilizadas.
-- **Bancos de Dados**: Encontre informações sobre os bancos de dados mais utilizados, desde SQL até NoSQL.
-- **Frameworks**: Descubra os frameworks mais poderosos para acelerar o desenvolvimento de suas aplicações.
-- **IDEs**: Confira as principais ferramentas de desenvolvimento e escolha a que mais combina com você.
-- **IAs**: Explore soluções de inteligência artificial que podem melhorar seu fluxo de trabalho no mundo dev.
+O **DEVSPACE** oferece uma funcionalidade principal: explorar ferramentas de desenvolvimento por meio de módulos organizados. Você pode acessar e descobrir informações detalhadas sobre:
+
+- **Linguagens de Programação**: Conheça as linguagens mais populares e suas características.
+- **Bancos de Dados**: Encontre informações sobre diversos tipos de bancos de dados, desde SQL até NoSQL.
+- **Frameworks**: Descubra frameworks que podem acelerar o desenvolvimento de suas aplicações.
+- **IDEs**: Explore as principais ferramentas de desenvolvimento e encontre a que melhor se adapta às suas necessidades.
+- **IAs**: Conheça soluções de inteligência artificial que podem aprimorar seu fluxo de trabalho no mundo dev.
+
+### Responsividade
+
+O **DEVSPACE** foi projetado para ser totalmente responsivo, oferecendo uma excelente experiência de navegação em desktops, tablets e dispositivos móveis. A interface se ajusta automaticamente ao tamanho da tela, garantindo que você possa explorar as ferramentas de forma confortável em qualquer dispositivo.
+
+### Tema Claro e Escuro
+
+Para se adequar às suas preferências visuais e condições de iluminação, o **DEVSPACE** oferece suporte a temas claro e escuro. Você pode alternar entre os modos de visualização para uma experiência personalizada e agradável.
 
 ## Tecnologias Utilizadas
 
-- **HTML 5**
-- **CSS**
-- **JavaScript**
+O **DEVSPACE** foi desenvolvido utilizando as seguintes tecnologias:
+
+- **HTML5**: Utilizado para estruturar o conteúdo da plataforma, garantindo uma base sólida e semântica para o desenvolvimento.
+- **CSS**: Empregado para estilizar e criar um design responsivo e agradável, proporcionando uma experiência de usuário intuitiva e visualmente atraente.
+- **JavaScript**: Implementado para adicionar interatividade e dinamismo à plataforma. Além de permitir a alternância entre temas claro e escuro, o JavaScript é utilizado para realizar buscas eficientes e apresentar os resultados de maneira organizada e intuitiva, facilitando a exploração das linguagens de programação, bancos de dados, frameworks, IDEs e IAs.
+
+Essas tecnologias foram escolhidas para garantir um desenvolvimento eficaz e uma experiência de usuário de alta qualidade.
 
 ## Como Rodar o Projeto
 
@@ -69,11 +83,7 @@ Contribuições são bem-vindas! Siga os passos abaixo para contribuir com o DEV
 
 5. Envie suas alterações.
 
-## Contexto do Projeto
-
-O **DEVSPACE** foi desenvolvido durante a Imersão Dev com Google Gemini, um evento de treinamento intensivo focado em tecnologias de desenvolvimento web, com a ajuda do Gemini. A Imersão foi hospedada pela Alura.
-
-![DEVSPACE](assets/readme/imersao.webp)
+Nasceu durante a imaeresaod
 
 ## Processo de Criação
 
@@ -85,7 +95,9 @@ Como alguém que não tinha um conhecimento profundo sobre várias ferramentas d
 
 ### Desenvolvimento
 
-Dediquei mais de 20 horas aprendendo **HTML**, **CSS** e **JavaScript**, e aplicando esse conhecimento no desenvolvimento do **DEVSPACE**. O projeto foi construído com um design **minimalista e intuitivo** para garantir uma navegação fluida e agradável. Utilizando essas tecnologias, criei uma interface que é ao mesmo tempo simples e eficiente, tornando a experiência de exploração das ferramentas a mais agradável possível.
+Foram dedicadas mais de 20 horas ao aprendizado e aplicação de **HTML**, **CSS** e **JavaScript** no desenvolvimento do **DEVSPACE**. O projeto foi construído com um design **minimalista e intuitivo** para garantir uma navegação fluida e agradável. Utilizando essas tecnologias, foi criada uma interface que é ao mesmo tempo simples e eficiente, proporcionando uma experiência de exploração das ferramentas que é a mais agradável possível.
+
+Além disso, foram exploradas e implementadas animações e efeitos de **CSS**, que adicionaram um toque especial e dinâmico à plataforma. Essas adições não só melhoraram a estética do projeto, mas também enriqueceram a experiência do usuário com interações mais envolventes e visuais.
 
 ### Objetivo
 
