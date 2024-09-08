@@ -82,6 +82,7 @@ Contribuições são bem-vindas! Siga os passos abaixo para contribuir com o DEV
 ```
 
 5. Envie suas alterações.
+
 ## Contexto do Projeto
 
 O **DEVSPACE** foi desenvolvido durante a Imersão Dev com Google Gemini, um evento de treinamento intensivo focado em tecnologias de desenvolvimento web, com a ajuda do Gemini. A Imersão foi hospedada pela Alura.
