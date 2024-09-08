@@ -14,7 +14,7 @@
 
 ## Tecnologias Utilizadas
 
-- **HTML 5**
+- **HTML 5** ![My Skills](https://skillicons.dev/icons?i=html,css,js&perline=2)
 - **CSS**
 - **JavaScript**
 
